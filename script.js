@@ -1,51 +1,50 @@
-// 1. Gráfico de Canales (Doughnut)
+// Gráfico 1: Canales
 new Chart(document.getElementById('chartCanales'), {
     type: 'doughnut',
     data: {
         labels: ['Newsletter', 'Google', 'Radio', 'Otros'],
         datasets: [{
-            data: [11, 8, 4, 27],
-            backgroundColor: ['#06b6d4', '#3b82f6', '#8b5cf6', '#475569']
+            data: [11, 8, 5, 26],
+            backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc', '#858796']
         }]
     }
 });
 
-// 2. Gráfico de Sedes (Bar)
+// Gráfico 2: Sedes
 new Chart(document.getElementById('chartSedes'), {
     type: 'bar',
     data: {
         labels: ['Ate', 'San Miguel', 'Callao', 'Lima'],
         datasets: [{
-            label: 'Soles',
+            label: 'Ventas Reales',
             data: [660000, 420000, 210000, 180000],
-            backgroundColor: '#06b6d4'
+            backgroundColor: '#4e73df'
         }]
     }
 });
 
-// 3. Gráfico de Segmentos (Pie)
+// Gráfico 3: Segmentos
 new Chart(document.getElementById('chartSegmentos'), {
     type: 'pie',
     data: {
         labels: ['Persona', 'Empresa'],
         datasets: [{
             data: [35, 15],
-            backgroundColor: ['#10b981', '#f59e0b']
+            backgroundColor: ['#1cc88a', '#f6c23e']
         }]
     }
 });
 
-// 4. Gráfico de Evolución (Line)
+// Gráfico 4: Tiempo
 new Chart(document.getElementById('chartTiempo'), {
     type: 'line',
     data: {
         labels: ['Mayo', 'Junio', 'Julio'],
         datasets: [{
-            label: 'Crecimiento',
-            data: [15, 25, 10],
-            borderColor: '#06b6d4',
-            fill: true,
-            backgroundColor: 'rgba(6, 182, 212, 0.2)'
+            label: 'Tendencia de Venta',
+            data: [250000, 310000, 290000],
+            borderColor: '#4e73df',
+            fill: false
         }]
     }
 });
