@@ -5,48 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Examen Parcial IA Aplicada | Carlos Mejia</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Cargamos Chart.js para los 4 gráficos -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Examen Parcial: Inteligencia Artificial Aplicada</h1>
-            <p class="subtitle">Alumno: Carlos Giuliano Mejia Vargas | Institución: Zegel</p>
+            <h1>Análisis de Inteligencia de Negocios e IA</h1>
+            <p class="subtitle">Alumno: Carlos Giuliano Mejia Vargas | Carrera: Ingeniería de Sistemas</p>
         </div>
     </header>
 
     <main class="container">
-        <!-- SECCIÓN: PERFIL DEL ALUMNO -->
-        <section id="perfil">
-            <h2>Perfil Profesional</h2>
-            <p>Estudiante de Ingeniería de Sistemas con enfoque en el diseño e implementación de soluciones disruptivas para PYMES. Mi formación en Zegel se centra en dominar tecnologías emergentes y el uso estratégico de datos para la toma de decisiones, transformando la IA Generativa en una herramienta clave para la eficiencia operativa bajo principios de ética y pensamiento crítico.</p>
+        
+        <section id="resumen">
+            <h2>Resumen Ejecutivo: Operaciones de Venta (Mayo - Julio 2017)</h2>
+            <p>El análisis revela una operación sólida con un <strong>ticket promedio de S/ 34,743.90</strong>. Se observa un posicionamiento orientado a la calidad y rentabilidad. En términos de eficiencia, el <strong>Newsletter</strong> lidera la conversión con 11 cierres exitosos, superando a Google (8 ventas).</p>
         </section>
 
-        <!-- SECCIÓN: INFORME DESCRIPTIVO -->
-        <section id="informe">
-            <h2>Informe Descriptivo de Operaciones</h2>
-            <div class="informe-texto">
-                <p>El presente análisis se basa en el dataset <strong>data.xlsx</strong>, que registra las operaciones de venta del periodo Mayo-Julio 2017. A continuación, se detallan los hallazgos estratégicos:</p>
-                <ul>
-                    <li><strong>Dominio de Canales:</strong> El canal <em>Newsletter</em> lidera la conversión con un 22%, demostrando la efectividad de la fidelización directa sobre la publicidad pagada.</li>
-                    <li><strong>Eficiencia por Sede:</strong> La sede de <strong>Ate</strong> se consolida como el núcleo financiero del negocio, generando el mayor volumen de ventas reales.</li>
-                    <li><strong>Perfil del Cliente:</strong> Existe un predominio del 70% en el segmento 'Persona', lo que sugiere una oportunidad de expansión en el sector corporativo.</li>
-                    <li><strong>Tendencia Temporal:</strong> Se observan picos de venta cíclicos que permiten proyectar un crecimiento sostenido mediante automatización.</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- SECCIÓN: DASHBOARD CON 4 GRÁFICOS -->
         <section id="dashboard">
-            <h2>Dashboard Interactivo de Datos</h2>
+            <h2>Dashboard Interactivo (Análisis de Datos)</h2>
             <div class="grid-charts">
                 <div class="chart-card">
-                    <h3>Mix de Canales (Newsletter lidera)</h3>
+                    <h3>Eficiencia por Canal</h3>
                     <canvas id="chartCanales"></canvas>
                 </div>
                 <div class="chart-card">
-                    <h3>Ventas por Sede (Rendimiento)</h3>
+                    <h3>Ventas por Sede</h3>
                     <canvas id="chartSedes"></canvas>
                 </div>
                 <div class="chart-card">
@@ -54,22 +38,74 @@
                     <canvas id="chartSegmentos"></canvas>
                 </div>
                 <div class="chart-card">
-                    <h3>Evolución de Ventas Reales</h3>
+                    <h3>Evolución Trimestral</h3>
                     <canvas id="chartTiempo"></canvas>
                 </div>
             </div>
         </section>
 
-        <!-- SECCIÓN: PROMPT MAESTRO -->
-        <section id="prompt">
-            <h2>Metodología: Prompt Maestro</h2>
-            <p>Para este análisis, se configuró un modelo de IA bajo el siguiente rol experto:</p>
-            <code>"Actúa como un Ingeniero de Sistemas Senior y Consultor en IT... centrado en la eficiencia operativa y la ética de datos..."</code>
+        <section id="imagenes-ia">
+            <h2>Análisis Predictivo y Desempeño (Generado por IA)</h2>
+            <div class="image-container">
+                <div class="img-box">
+                    <h3>Ranking de Ventas Reales</h3>
+                    <img src="image_c30057.png" alt="Top Vendedores" class="img-ia">
+                    <p>Liderazgo de Julio Zapatero con S/ 369,704.62.</p>
+                </div>
+                <div class="img-box">
+                    <h3>Proyección Agosto 2017</h3>
+                    <img src="image_c2fd93.png" alt="Análisis Predictivo" class="img-ia">
+                    <p>Tendencia proyectada mediante regresión lineal.</p>
+                </div>
+            </div>
         </section>
+
+        <section id="reporte-vendedores">
+            <h2>Reporte Detallado por Fuerza de Ventas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Vendedor</th>
+                        <th>Ventas Totales (Soles)</th>
+                        <th>Estrategia Sugerida</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Julio Zapatero</td>
+                        <td>S/ 369,704.62</td>
+                        <td>Bono de desempeño y programa de mentoría.</td>
+                    </tr>
+                    <tr>
+                        <td>Gastón García</td>
+                        <td>S/ 308,260.84</td>
+                        <td>Incentivo por volumen de cierre.</td>
+                    </tr>
+                    <tr>
+                        <td>Nicolás Mangia</td>
+                        <td>S/ 267,831.68</td>
+                        <td>Capacitación en técnicas de up-selling.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="privacidad">
+            <h2>Políticas de Privacidad y Gobierno de Datos</h2>
+            <div class="politicas-box">
+                <p>En cumplimiento con la normativa vigente y los estándares de ingeniería de sistemas:</p>
+                <ul>
+                    <li><strong>Anonimización:</strong> Los datos de clientes han sido cifrados para fines académicos.</li>
+                    <li><strong>Confidencialidad:</strong> La información del archivo <em>data.xlsx</em> es tratada bajo principios de ética profesional.</li>
+                    <li><strong>Uso Responsable:</strong> El procesamiento mediante IA se realiza de forma local para evitar filtraciones en modelos públicos.</li>
+                </ul>
+            </div>
+        </section>
+
     </main>
 
     <footer>
-        <p>&copy; 2026 Carlos Giuliano Mejia Vargas - Zegel - Carrera de Ingeniería de Sistemas</p>
+        <p>&copy; 2026 Carlos Giuliano Mejia Vargas - Zegel</p>
     </footer>
 
     <script src="script.js"></script>
