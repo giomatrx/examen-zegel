@@ -1,0 +1,11 @@
+{
+  "project": "Evaluación Parcial Zegel",
+  "author": "Carlos Giuliano Mejia Vargas",
+  "data_source": "data.xlsx",
+  "insights": {
+    "ticket_promedio": 34743.90,
+    "top_channel": "Newsletter",
+    "top_sede": "Ate",
+    "proyeccion_agosto": 1052418.83
+  }
+}
